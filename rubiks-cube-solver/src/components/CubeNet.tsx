@@ -32,12 +32,12 @@ const CubeNet: React.FC<CubeNetProps> = ({ cube, onSquareClick }) => {
 
   return (
     <div className="cube-net">
-      {renderFace('U', 'Top (U)')}
+      {renderFace('U', '(U)')}
       <div className="middle-row">
-        {renderFace('L', 'Left (L)')}
-        {renderFace('F', 'Front (F)')}
-        {renderFace('R', 'Right (R)')}
-        {renderFace('B', 'Back (B)')}
+        {renderFace('L', '(L)')}
+        {renderFace('F', '(F)')}
+        {renderFace('R', '(R)')}
+        {renderFace('B', '(B)')}
       </div>
       {renderFace('D', 'Bottom (D)')}
     </div>
